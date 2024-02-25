@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Contacts and Addresses</title>
+    <link rel = "stylesheet" href  = "style.css">
+    <style>
+        body {background-color: powderblue;
+           
+       }
+        h1   {color: blue;
+            margin : 10px 20px 20px 20px;
+        }
+        p    {color: rgb(174, 0, 255);
+            margin : 10px 20px 10px 20px;
+        }
+        input { color : rgb(0, 0, 0);
+        background-color:beige;
+        border-radius : 6px;
+       }
+        textarea{
+            border-radius: 5px;
+            background-color: beige;
+            height : 60px;
+            width : 300px;
+
+        }
+        hr{
+            border:dotted #EAF6F6 6px;
+           border-bottom : none;
+           width : 40%;
+           margin: 20px auto 30px auto;
+        }
+        label{
+            display: block;
+            font-weight: 3em;
+            font-size : 1em;
+            margin-left: 0;
+            margin-bottom: 10px;
+            /* margin : 20px 20px 20px 20px; */
+        }
+        form{
+            margin:  20px 20px 20px 20px;
+        }
+        </style>
+</head>
+<body>
+    <h1><strong>My Contact And Address.</strong></h1>
+    <hr>
+    <p><strong>My Contact No: is - 700****214.</strong></p>
+    <p><strong>I live in Titagarh. </strong></p>
+    <p><strong>My E-Mail Address is - swrohit2003@gmail.com.</strong></p>
+ 
+    <form  action = " mailto:swrohit2003@gmail.com" method = " post" enctype = "text/plain">
+      <label>Your Name : </label>
+      <input type = "text" name = "Your Name" value = "">
+      <input type = "color" name = "" value = ""><br>
+      <br>
+      <input type = "checkbox"name = "" value = "">
+      <label style="display: inline;"> Do you want to sign up with the email list</label>
+      <br>
+      <!--<input type = "submit" name = ""> -->
+      <br>
+      <label>Your E-mail : </label>
+      <input type = "E-mail" name = "Your E-mail" value = "">
+      <input type = "submit" name = ""><br>
+      <br>
+        <label> Password : </label>
+        <input type = "password"name = "" value = "">  
+        <input type = "submit" name = ""><br>
+        <br>
+        <label> Your Message :</label>
+        <textarea name = "name "rows = "10" cols = "30"></textarea><br>
+        <br>
+        <input type = "submit" name = "">
+    
+    </form>
+    
+</body>
